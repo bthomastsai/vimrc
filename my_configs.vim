@@ -16,6 +16,9 @@ nmap <leader>w :w!<cr>
 "Search Dictionary
 nmap <leader>d :call SearchWord()<CR>
 
+"SelectBuf
+nmap <unique> <silent> <S-L> <Plug>SelectBuf
+
 "Remove the Windows ^M
 map <Leader>m mz:%s/\r$//g<cr>`z
 

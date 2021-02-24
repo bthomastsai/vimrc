@@ -36,7 +36,6 @@ map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
 
-
 set mouse=n
 
 set cursorline
@@ -97,6 +96,7 @@ ab fro for
 
 set incsearch
 set smartcase
+set path=./,**,
 
 "Map hlsearch
 nmap <Leader>hl :set hlsearch!<BAR>set hlsearch?<CR>

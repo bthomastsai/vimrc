@@ -59,7 +59,7 @@ au FileType gitcommit call setpos('.', [0, 1, 1, 0])
 """"""""""""""""""""""""""""""
 " => Shell section
 """"""""""""""""""""""""""""""
-if exists('$TMUX') 
+ if exists('$TMUX') 
     if has('nvim')
         set termguicolors
     else
